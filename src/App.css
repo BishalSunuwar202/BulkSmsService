@@ -1,0 +1,7 @@
+.inclined-right {
+  clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+}
+
+.inclined-left {
+  clip-path: polygon(0 0, 0 0, 100% 0, 100% 90%, 20% 90%);
+}
