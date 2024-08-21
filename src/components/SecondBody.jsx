@@ -1,5 +1,5 @@
 import { IoIosCheckmark } from "react-icons/io";
-import laptopBoy from "../assets/clients/laptopBoy.png";
+import laptopBoy from "../assets/clients/laptopboy.png";
 const SecondBody = () => {
   return (
     <div className=" mt-20 bg-gradient-to-r from-purple-500 from-10% via-purple-500 via-50% to-rose-100 to-90% w-full relative flex md:flex-row flex-col z-0">
