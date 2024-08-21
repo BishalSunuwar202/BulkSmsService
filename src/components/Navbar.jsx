@@ -8,7 +8,7 @@ const NavLinks = () => {
     <>
       <div
         className={
-          "flex flex-col md:flex-row text-white font-thin tracking-tight justify-between gap-3 md:gap-2 lg:gap-4"
+          "flex flex-col md:flex-row text-white font-thin tracking-tight justify-between gap-3 md:gap-2 lg:gap-4 items-center"
         }
       >
         <div className="flex gap-1 items-center hover:bg-slate-700 cursor-pointer focus:ring-3 hover:ring-2 rounded-md p-1">
