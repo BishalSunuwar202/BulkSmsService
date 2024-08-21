@@ -13,7 +13,7 @@ const FirstBody = () => {
           alt="people working"
         /> */}
 
-        <div className="flex flex-col md:flex md:flex-row md:bottom-0 top-0 z-20 gap-2 items-center md:w-full bottom-0">
+        <div className="flex flex-col md:flex md:flex-row md:bottom-0 top-0 z-20 gap-2 md:gap-4 items-center md:w-full bottom-0">
           <div className="space-y-2 flex flex-col items-center text-xs md:ml-20 ">
             <h1 className="bg-purple-500 text-white md:px-4 rounded-lg tracking-tight font-thin md:font-bold p-2 md:text-lg">
               Why choose us
