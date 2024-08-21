@@ -2,13 +2,13 @@ import { InfiniteMovingCards } from ".";
 
 export function InfiniteMovingCardsDemo() {
   return (
-    <div className="m-10 rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden border-3 border-green-300">
+    // <div className="m-10 rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden border-3 border-green-300">
       <InfiniteMovingCards
         items={testimonials}
         direction="right"
         speed="slow"
       />
-    </div>
+    // </div>
   );
 }
 

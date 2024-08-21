@@ -4,6 +4,10 @@ export default {
   theme: {
     // rest of the code
     extend: {
+      backgroundImage: {
+        'officeworkpic': "url('src/assets/officeworkpic.jpg')",
+        
+      },
       animation: {
         scroll:
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",

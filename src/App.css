@@ -5,3 +5,9 @@
 .inclined-left {
   clip-path: polygon(0 0, 0 0, 100% 0, 100% 90%, 20% 90%);
 }
+
+/* Option 2: Using a descendant selector */
+/* .faq-item is used for increasing the specificity of .active class by adding more selectors, like .faq-item  */
+.faq-item .active {
+  background-color: #034f84;
+}

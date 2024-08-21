@@ -1,34 +1,30 @@
 import { BsArrowUpRightCircleFill } from "react-icons/bs";
 import SmsPic from "../assets/Leading-SMS-Service-in-Nepal.webp";
+import { headText } from "../constants/index.js";
 const Head = () => {
   return (
     <>
-      <div className="flex">
-        <div className="container">
-          <p className="text-white font-serif font-bold text-4xl">
+      <div className="md:flex md:flex-row flex flex-col px-8">
+        <div className="flex flex-col">
+          <p className="text-white font-serif text-xl p-2 font-bold md:text-4xl mx-2 text-center md:text-start">
             YOUR <span className="text-sky-400">PARTNER </span> FOR BULK
-            <span className="text-sky-400">SMS </span>SERVICE
+            <span className="text-sky-400"> SMS </span>SERVICE
           </p>
-          <input
-            className="mt-4 mb-4 p-2 rounded-xl bg-slate-800 relative w-96"
-            type="text"
-            placeholder="Enter your queries"
-          />
-          <button className="bg-orange-200 rounded-3xl w-36 m-4 p-2 absolute start-80">
-            Let&apos;s Talk
-            <BsArrowUpRightCircleFill className="inline" />
-          </button>
+          <div className="flex">
+            <input
+              className="mt-4 mb-4 p-2 bg-slate-600 rounded-2xl z-10  flex-1"
+              type="text"
+              placeholder="Enter your queries"
+            />
+            <button className="bg-orange-200 mt-4 mb-4 p-1 rounded-2xl z-20 -ml-20 flex items-center gap-1">
+              <h1 className="">Let&apos;s Talk</h1>
+              <BsArrowUpRightCircleFill className="text-2xl" />
+            </button>
+          </div>
 
-          <p className="text-white ">
-            The SMS central is a leading SMS messaging service provider offering
-            two-way SMS communication services straight from your internet
-            enabled computer. The Bulk SMS gateway reaches across borders and
-            connects to over all mobile network operators in Nepal.
-          </p>
+          <p className="text-white tracking-tight py-6">{headText}</p>
         </div>
-        <div>
-          <img  src={SmsPic} alt="Bulk Sms Service Picture" />
-        </div>
+        <img  className="md:w-80 lg:w-96 rounded-xl md:ml-8" src={SmsPic} alt="Bulk Sms Service Picture" />
       </div>
     </>
   );

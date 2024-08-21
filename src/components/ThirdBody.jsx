@@ -8,19 +8,19 @@ import {
 
 const ThirdBody = () => {
   return (
-    <div className="mt-20 bg-gradient-to-r from-purple-600 from-10% via-purple-400 via-50% to-purple-200 to-90% h-72 w-full flex flex-col justify-center items-center gap-4 rounded-2xl">
-      <div className="flex justify-between w-4/5 text-white">
+    <div className="mt-20 bg-gradient-to-r from-purple-600 from-10% via-purple-400 via-50% to-purple-200 to-90% flex flex-col justify-center items-center gap-4 rounded-2xl mx-8">
+      <div className="grid grid-cols-2 text-white gap-4 m-2 md:flex md:flex-row md:mt-10 md:gap-8 lg:gap-20 py-2">
         <div>
-          <h2 className="font-semibold text-lg mb-3">Company</h2>
-          <div className="text-xs space-y-2">
+          <h2 className="font-semibold text-lg mb-3 lg:text-xl">Company</h2>
+          <div className="text-xs space-y-2 lg:text-sm">
             <h1>About Us</h1>
             <h1>Bulk SMS Nepal</h1>
             <h1>Bulk SMS Service</h1>
           </div>
         </div>
         <div>
-          <h2 className="font-semibold text-lg mb-3">Services</h2>
-          <div className="text-xs space-y-2">
+          <h2 className="font-semibold text-lg mb-3 lg:text-xl">Services</h2>
+          <div className="text-xs space-y-2 lg:text-sm">
             <h1>Bulk SMS to Nepal</h1>
             <h1>SMS Gateway API</h1>
             <h1>SMS Shortcodes</h1>
@@ -28,15 +28,17 @@ const ThirdBody = () => {
           </div>
         </div>
         <div>
-          <h2 className="font-semibold text-lg mb-3">Get in Touch</h2>
-          <div className="text-xs space-y-2">
+          <h2 className="font-semibold text-lg mb-3 lg:text-xl">
+            Get in Touch
+          </h2>
+          <div className="text-xs space-y-2 lg:text-sm">
             <h1>Contact Us</h1>
             <h1>Careers</h1>
           </div>
         </div>
         <div>
-          <h2 className="font-semibold text-lg mb-3">Support</h2>
-          <div className="text-xs space-y-2">
+          <h2 className="font-semibold text-lg mb-3 lg:text-xl">Support</h2>
+          <div className="text-xs space-y-2 lg:text-sm">
             <h1>Help Center</h1>
             <h1>Cookie policy</h1>
             <h1>Terms of services</h1>
@@ -44,8 +46,10 @@ const ThirdBody = () => {
           </div>
         </div>
       </div>
-      <hr className="w-[40rem]" />
-      <div className="flex w-80 justify-between p-3 text-4xl text-white mr-12">
+
+      <hr className="w-[80%]" />
+
+      <div className="flex gap-2 md:w-80 justify-between py-4 text-2xl md:text-4xl text-white">
         <FaFacebook />
         <FaInstagram />
         <FaTwitter />
