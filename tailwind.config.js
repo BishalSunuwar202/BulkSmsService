@@ -5,7 +5,7 @@ export default {
     // rest of the code
     extend: {
       backgroundImage: {
-        officeworkpic: "url('/assets/officeworkpic.jpg')",
+        officeworkpic: "url('/officeworkpic.jpg')",
       },
       animation: {
         scroll:
