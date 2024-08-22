@@ -7,13 +7,7 @@ const FirstBody = () => {
   return (
     <>
       <div className="my-12 relative rounded-xl w-full flex min-h-80  justify-center bg-officeworkpic bg-cover p-8 ">
-        {/* <img
-          className="max-h-80 w-full object-cover z-10"
-          src={officePic}
-          alt="people working"
-        /> */}
-
-        <div className="flex flex-col md:flex md:flex-row md:bottom-0 top-0 z-20 gap-2 md:gap-4 items-center md:w-full bottom-0">
+        <div className="flex flex-col md:flex md:flex-row md:bottom-0 top-0 z-20 gap-2 md:gap-4 items-center md:w-full bottom-0 xl:mr-16">
           <div className="space-y-2 flex flex-col items-center text-xs md:ml-20 ">
             <h1 className="bg-purple-500 text-white md:px-4 rounded-lg tracking-tight font-thin md:font-bold p-2 md:text-lg">
               Why choose us

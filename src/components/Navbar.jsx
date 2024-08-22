@@ -38,7 +38,7 @@ const NavLinks = () => {
 };
 
 const Navbar = () => {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
 
   const toogleBar = () => {
     setOpen(!open);
@@ -48,11 +48,11 @@ const Navbar = () => {
       <div className=" flex justify-between items-center p-8">
         <div className="flex items-center ">
           <img
-            className="h-10 md:h-16 md:w-14 rounded-full"
+            className="h-10 md:h-16 md:w-14 xl:w-18 xl:h:18 rounded-full"
             src={logos}
             alt="thesmscentral logo"
           />
-          <p className="text-white text-sm md:font-bold">The SMS Central</p>
+          <p className="text-white text-sm md:font-bold xl:text-xl">The SMS Central</p>
         </div>
 
         <div className="text-white md:hidden  text-4xl" onClick={toogleBar}>

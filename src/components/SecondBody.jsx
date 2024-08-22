@@ -48,27 +48,27 @@ const SecondBody = () => {
         <p className="text-white text-xs md:text-2xl mb-2 font-semibold">
           WHY COLLABORATE WITH THE SMS CENTRAL?
         </p>
-        <p className="text-white text-xs font-serif tracking-tight mt-2 mb-2">
+        <p className="text-white text-xs font-serif tracking-tight mt-2 mb-2 md:text-sm xl:text-lg">
           We provide carrier-grade mobile messaging solutions, with the option
           of advance application integration to ensure a rapid, cost-effective
           time-to-market.
         </p>
-        <div className="bg-rose-50 mt-3 rounded-lg md:p-6 tracking-tighter md:tracking-normal flex flex-col gap-2 md:max-w-72 p-3">
+        <div className="bg-rose-50 mt-3 rounded-lg md:p-6 tracking-tighter md:tracking-normal flex flex-col gap-2 md:max-w-72 xl:max-w-96 p-3">
           <div className="flex gap-4 items-center">
-            <IoIosCheckmark className=" bg-orange-200 rounded-lg scale-125" />
-            <h1 className="text-sm">High Message Delivery Rates</h1>
+            <IoIosCheckmark className=" bg-orange-200 rounded-lg scale-125 xl:scale-150" />
+            <h1 className="text-sm xl:text-lg">High Message Delivery Rates</h1>
           </div>
           <div className="flex gap-4 items-center">
-            <IoIosCheckmark className=" bg-orange-200 rounded-lg scale-125" />
-            <h1 className="text-sm">User-Friendly Interface</h1>
+            <IoIosCheckmark className=" bg-orange-200 rounded-lg scale-125 xl:scale-150" />
+            <h1 className="text-sm xl:text-lg">User-Friendly Interface</h1>
           </div>
           <div className="flex gap-4 items-center">
-            <IoIosCheckmark className=" bg-orange-200 rounded-lg scale-125" />
-            <h1 className="text-sm">Scalability</h1>
+            <IoIosCheckmark className=" bg-orange-200 rounded-lg scale-125 xl:scale-150" />
+            <h1 className="text-sm xl:text-lg">Scalability</h1>
           </div>
           <div className="flex gap-4 items-center">
-            <IoIosCheckmark className=" bg-orange-200 rounded-lg scale-125" />
-            <h1 className="text-sm">Reports and Analytics</h1>
+            <IoIosCheckmark className=" bg-orange-200 rounded-lg scale-125 xl:scale-150" />
+            <h1 className="text-sm xl:text-lg">Reports and Analytics</h1>
           </div>
         </div>
       </div>
