@@ -1,4 +1,5 @@
 import "./App.css";
+import Chatbotify from "./components/Chatbotify";
 import Faq from "./components/Faq";
 import FirstBody from "./components/FirstBody";
 import Footer from "./components/Footer";
@@ -23,6 +24,7 @@ function App() {
           <Faq />
           <ThirdBody />
           <Footer />
+          <Chatbotify />
         </div>
       </div>
     </>
